@@ -8,21 +8,18 @@
     font-family: 'Baloo Bhaijaan 2', cursive;
    display: flex;
 }
-
-
-#navigation-bar ul{
-    display: flex;
-    background-color: black;
-    width:10000;
-}
 #navigation-bar::before{
     content: "";
     background-color: rgb(110, 110, 110);
     position: absolute;
-    height: 10%;
-    width: 100%;
+    height: 10px;
+    width: 100px;
     z-index: -1;
-    opacity: 0.4rem;
+}
+#navigation-bar ul{
+    display: flex;
+    background-color: black;
+    width:10000;
 }
 #navigation-bar ul li{
     
@@ -78,7 +75,7 @@
 
 }
 #btn-F:hover{
-    background-color:rgb(243, 0, 81) ;
+    background-color:rgb(0, 0, 0) ;
     color: white;
     cursor: pointer;
     border: none;
@@ -123,78 +120,176 @@ color: white;
     display: block;
     margin: 40px;
 }
-.boxx img{
-    height: 150px;
-    width: 150px;
-}
 .Ads{
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: center;
-   flex-direction: column;
-    height: 56%;
-    padding-top: 21px;
+    flex-direction: column;
+    height: 20%;
+    padding-top: 17px;
     font-weight: 1000;
     font-size: 4rem;
     font-family: 'Baloo Bhaijaan 2', cursive;
 }
 .Ads::before{
     background: url(BackG2.png) no-repeat center center/cover;
-    height: 77%;
+    height: 69%;
     width: 100%;
     content: "";
     position: absolute;
     z-index: -1;
 }
-/*Base-container(queries)*/
-#Base-container .for-question{
-    background-color: rgb(0, 0, 0);
-    
-}
-
- .Question{
-    text-align:center;
-    font-family: 'Baloo Bhaijaan 2', cursive;
-   font-size: 50px;
-    color: rgb(255, 255, 255);
-    padding-top: 80px;
-   
-}
-#Lets-start{
-    height: 43%;
-    width: 100%;
+#Explore-container{
+    display: flex;
     align-items: center;
     justify-content: center;
-    display: flex;
+    padding: 20px 200px;
+    height: 603px;
     
-    
+    font-size: large;
+    font-family: 'Baloo Bhaijaan 2', cursive;
 }
-#Lets-start::before{
-    z-index: -1;
-    background: url(BackG2.png) no-repeat center center/cover;
-    height: 59%;
-    width: 100%;
+#Explore-container::before{
     content: "";
+    background: url("BackG3.jpg") no-repeat center center/cover;
     position: absolute;
+    height: 78%;
+    width: 100%;
+    z-index: -1;
+    margin: 20px;
 }
+
 .H-Last{
     font-family: 'Baloo Bhaijaan 2', cursive;
     text-align: center;
-    font-size: 80px;
-    padding-top: 150px;
+    font-size: 100px;
+    padding-top: 44px;
 }
 #btn-L{
     border-radius: 21px;
-    background-color: rgb(255, 255, 255);
     font-size: x-large;
     padding: 10px;
-    border: none;
-    
+    border: none; 
+    margin-left: 15rem;
+    background-color: black;
 }
 #btn-L:hover{
-    background-color:rgb(218, 28, 91) ;
-    color: white;
+    background-color:rgb(36, 35, 35) ;
+    color: rgb(255, 250, 250);
     cursor: pointer;
     border: none;
 }
+#btn-L a{
+    text-decoration: none;
+    color: white;
+}
+#footer-id{
+    display: flex;
+    position: absolute;
+}
+.footer-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 200px;
+    height: 471px;
+    
+    font-size: large;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.footer-details::before{
+    content: "";
+    background: url("BackG2.png") no-repeat center center/cover;
+    position: absolute;
+    height: 109%;
+    width: 100%;
+    z-index: -1;
+    margin: 20px;
+}
+#footer-container .footer-H{
+   color: black;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    display: inline-block;
+    margin: 2.4rem;
+}
+#footer-container ul li{
+    list-style: none;  
+}
+#footer-container ul li a{
+    color: black;
+    padding:  1rem;
+    display: block;
+    text-decoration: none;
+}
+#footer-container ul li a:hover{
+    color: white;
+}
+#nav-2{
+    align-items:flex-start;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+   display: flex;
+}
+#nav-2::before{
+    content: "";
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    height: 10%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4rem;
+}
+#nav-2 .Items {
+    display: flex;
+    width:10000;
+}
+#nav-2 .Items  li{
+    
+    list-style: none;  
+}
+#nav-2 .Items  li a{
+    color: rgb(0, 0, 0);
+    padding:  1rem;
+    display: flex;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+#Social-Links{
+    display: flex;
+    align-items: right;
+   justify-content: center;
+   
+}
+
+.Social-media ul{
+    display: flex;
+}
+.Social-media ul li{
+    list-style: none;  
+}
+.Social-media  ul li a{
+    align-items: center;
+    font-size: larger; 
+    border: 10px; 
+    padding: 20px;
+}
+.AB{
+    text-align: center;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: smaller;
+    font-weight: 200;
+
+    }
+
+    @media  screen and (max-width: 1248px) {
+        html{
+            font-size: 55px;
+        }
+    }
+    @media screen and (max-width: 654px) {
+        html{
+            font-size: 45px;
+        }
+    }
+

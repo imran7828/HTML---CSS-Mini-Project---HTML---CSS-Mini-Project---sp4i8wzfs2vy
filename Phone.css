@@ -1,0 +1,20 @@
+/*Navigation-Bar*/
+#navigation-bar{
+    flex-direction: column;
+}
+#navigation-bar ul li a{
+   padding: 0px 7px;
+   padding-bottom: 8px;
+   font-size: 1rem;
+}
+#Home{
+    height: 300px;
+}
+#Home::before{
+    height: 450px;
+}
+#btn-F{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+
