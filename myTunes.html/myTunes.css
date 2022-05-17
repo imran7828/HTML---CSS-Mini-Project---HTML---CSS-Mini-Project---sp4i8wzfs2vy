@@ -72,10 +72,13 @@
     font-size: large;
     padding: 10px;
     border: none;
-
+}
+#btn-F a{
+    text-decoration: none;
+    color: black;
 }
 #btn-F:hover{
-    background-color:rgb(0, 0, 0) ;
+    background-color:rgb(255, 255, 255) ;
     color: white;
     cursor: pointer;
     border: none;
