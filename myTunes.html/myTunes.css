@@ -186,7 +186,7 @@ color: white;
 }
 #footer-id{
     display: flex;
-    position: absolute;
+    position: relative;
 }
 .footer-details{
     display: flex;
@@ -194,7 +194,7 @@ color: white;
     justify-content: center;
     padding: 20px 200px;
     height: 471px;
-    
+    width: 1000px;
     font-size: large;
     font-family: 'Baloo Bhaijaan 2', cursive;
 }
@@ -202,27 +202,28 @@ color: white;
     content: "";
     background: url("BackG2.png") no-repeat center center/cover;
     position: absolute;
-    height: 109%;
+    height: 132%;
     width: 100%;
     z-index: -1;
     margin: 20px;
 }
-#footer-container .footer-H{
+ .footer-H{
    color: black;
     font-family: 'Baloo Bhaijaan 2', cursive;
-    display: inline-block;
-    margin: 2.4rem;
+   display: block;
+    margin-left: 5rem;
 }
-#footer-container ul li{
+.footer-details ul li{
     list-style: none;  
 }
-#footer-container ul li a{
+.footer-details ul li a{
     color: black;
     padding:  1rem;
     display: block;
     text-decoration: none;
+    margin-left: 5rem;
 }
-#footer-container ul li a:hover{
+.footer-details ul li a:hover{
     color: white;
 }
 #nav-2{
